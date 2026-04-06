@@ -1,0 +1,60 @@
+{
+    "classes": [
+        {
+            "className": "MacWindowHelper",
+            "lineNumber": 7,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QWindow*"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 17,
+                    "name": "configureFloatingPanel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QWindow*"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 21,
+                    "name": "raiseFloatingPanel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 25,
+                    "name": "saveFrontmostApp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 29,
+                    "name": "restoreFrontmostApp",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MacWindowHelper",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MacWindowHelper.h",
+    "outputRevision": 69
+}

@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.21)
-project(TalkScribe VERSION 0.1.0 LANGUAGES CXX C OBJCXX)
+project(TalkScribe VERSION 0.1.0 LANGUAGES CXX C)
+
+# Note: OBJCXX is NOT enabled globally to avoid .m files being compiled as ObjC++
+# (whisper.cpp Metal backend needs plain ObjC). CMake auto-detects OBJCXX from .mm files.
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -133,6 +136,19 @@ if(TALKSCRIBE_ENABLE_WHISPER)
         GIT_TAG        v1.7.3
     )
     FetchContent_MakeAvailable(whisper)
+
+    # Fix: ggml-metal.m must be compiled as plain ObjC, not ObjC++
+    # (ObjC++ disallows implicit void* casts which ggml-metal needs)
+    if(TARGET ggml-metal)
+        get_target_property(_metal_srcs ggml-metal SOURCES)
+        foreach(_src ${_metal_srcs})
+            if(_src MATCHES "\\.m$")
+                set_source_files_properties(${_src} PROPERTIES LANGUAGE C)
+                set_source_files_properties(${_src} TARGET_DIRECTORY ggml-metal
+                    PROPERTIES COMPILE_FLAGS "-x objective-c -Wno-c++11-narrowing -Wno-shorten-64-to-32")
+            endif()
+        endforeach()
+    endif()
 
     set(BUILD_SHARED_LIBS ${_saved_BUILD_SHARED_LIBS} CACHE BOOL "" FORCE)
 

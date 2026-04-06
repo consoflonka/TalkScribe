@@ -1,0 +1,112 @@
+{
+    "classes": [
+        {
+            "className": "ParakeetProvider",
+            "lineNumber": 29,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 46,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 47,
+                    "name": "stop",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 32,
+                    "name": "isActive",
+                    "notify": "isActiveChanged",
+                    "read": "isActive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 33,
+                    "name": "modelLoaded",
+                    "notify": "modelLoadedChanged",
+                    "read": "modelLoaded",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "ParakeetProvider",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 64,
+                    "name": "isActiveChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 65,
+                    "name": "modelLoadedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "timestampMs",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 66,
+                    "name": "textReady",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "durationMs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 67,
+                    "name": "inferenceTimeMs",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ParakeetProvider.h",
+    "outputRevision": 69
+}

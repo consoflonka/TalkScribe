@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/">/Users/domin/Downloads/TalkScribe/build/TalkScribe</file>
+
+  </qresource>
+</RCC>

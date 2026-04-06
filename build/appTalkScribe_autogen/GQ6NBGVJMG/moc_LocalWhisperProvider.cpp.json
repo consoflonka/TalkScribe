@@ -1,0 +1,112 @@
+{
+    "classes": [
+        {
+            "className": "LocalWhisperProvider",
+            "lineNumber": 30,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 50,
+                    "name": "start",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 53,
+                    "name": "stop",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 33,
+                    "name": "isActive",
+                    "notify": "isActiveChanged",
+                    "read": "isActive",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 34,
+                    "name": "modelLoaded",
+                    "notify": "modelLoadedChanged",
+                    "read": "modelLoaded",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "LocalWhisperProvider",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 71,
+                    "name": "isActiveChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 72,
+                    "name": "modelLoadedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "timestampMs",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 75,
+                    "name": "textReady",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "durationMs",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 78,
+                    "name": "inferenceTimeMs",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "LocalWhisperProvider.h",
+    "outputRevision": 69
+}

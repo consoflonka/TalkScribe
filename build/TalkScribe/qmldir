@@ -1,0 +1,15 @@
+module TalkScribe
+typeinfo appTalkScribe.qmltypes
+prefer :/
+Main 1.0 qml/Main.qml
+Colors 1.0 qml/styles/Colors.qml
+Typography 1.0 qml/styles/Typography.qml
+Theme 1.0 qml/styles/Theme.qml
+DictationOverlay 1.0 qml/components/DictationOverlay.qml
+DictationSettings 1.0 qml/components/DictationSettings.qml
+DictationStatsSection 1.0 qml/components/DictationStatsSection.qml
+TranscriptionModelSettings 1.0 qml/components/TranscriptionModelSettings.qml
+CustomWordsSettings 1.0 qml/components/CustomWordsSettings.qml
+SnippetSettings 1.0 qml/components/SnippetSettings.qml
+depends QtQuick
+

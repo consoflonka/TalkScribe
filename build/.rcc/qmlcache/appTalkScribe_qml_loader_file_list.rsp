@@ -1,0 +1,16 @@
+--resource
+/Users/domin/Downloads/TalkScribe/build/.qt/rcc/qmake_TalkScribe.qrc
+--resource
+/Users/domin/Downloads/TalkScribe/build/.qt/rcc/qmake_TalkScribe_copy.qrc
+--resource
+/Users/domin/Downloads/TalkScribe/build/.qt/rcc/appTalkScribe_raw_qml_0.qrc
+/qml/Main.qml
+/qml/styles/Colors.qml
+/qml/styles/Typography.qml
+/qml/styles/Theme.qml
+/qml/components/DictationOverlay.qml
+/qml/components/DictationSettings.qml
+/qml/components/DictationStatsSection.qml
+/qml/components/TranscriptionModelSettings.qml
+/qml/components/CustomWordsSettings.qml
+/qml/components/SnippetSettings.qml

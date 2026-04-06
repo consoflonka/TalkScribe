@@ -4,7 +4,7 @@
 #include <iostream>
 
 // miniaudio for fallback resampler (declarations only, no IMPLEMENTATION)
-#include "../lib/miniaudio.h"
+#include "miniaudio.h"
 
 #if TALKLESS_HAS_SPEEXDSP
 #include <speex/speex_resampler.h>

@@ -1,0 +1,27 @@
+ggml-metal_autogen/timestamp: \
+	/Users/domin/Downloads/TalkScribe/build/CMakeFiles/4.2.3/CMakeASMCompiler.cmake \
+	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/ggml/src/ggml-common.h \
+	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/ggml/src/ggml-metal/CMakeLists.txt \
+	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/ggml/src/ggml-metal/ggml-metal-impl.h \
+	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/ggml/src/ggml-metal/ggml-metal.m \
+	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/ggml/src/ggml-metal/ggml-metal.metal \
+	/opt/homebrew/share/cmake/Modules/CMakeASMCompiler.cmake.in \
+	/opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake \
+	/opt/homebrew/share/cmake/Modules/CMakeTestASMCompiler.cmake \
+	/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Compiler/Clang-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake \
+	/opt/homebrew/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake \
+	/opt/homebrew/share/cmake/Modules/Internal/CMakeInspectASMLinker.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-ASM.cmake \
+	/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake \
+	/opt/homebrew/bin/cmake
