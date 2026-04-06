@@ -1,8 +1,0 @@
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_AudioCapture.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_DictationStatsService.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_GlobalDictationService.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_LocalWhisperProvider.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_ParakeetProvider.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_TextPostProcessor.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../GQ6NBGVJMG/moc_WhisperModelManager.cpp.json
-/Users/domin/Downloads/TalkScribe/build/appTalkScribe_autogen/include/../MHMUF6Z4OU/moc_MacWindowHelper.cpp.json

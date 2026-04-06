@@ -1,5 +1,0 @@
-whisper_autogen/timestamp: \
-	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/include/whisper.h \
-	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/src/CMakeLists.txt \
-	/Users/domin/Downloads/TalkScribe/build/_deps/whisper-src/src/whisper.cpp \
-	/opt/homebrew/bin/cmake

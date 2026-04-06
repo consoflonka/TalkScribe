@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/TalkScribe">
-    <file alias="qmldir">/Users/domin/Downloads/TalkScribe/build/TalkScribe/qmldir</file>
-  </qresource>
-</RCC>
-
